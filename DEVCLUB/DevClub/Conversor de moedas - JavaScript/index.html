@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-nr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <img class="Logo" src="assents/dollar-6589.gif" alt="Logo-dollar">
+
+    <main>
+        <Label>
+            Converter <b>de</b>
+            <select class="currency-converter-moeda">
+
+                <option value="real-converter"> R$ Real Brasileiro</option>
+                <option value="libra-converter"> £ Libra</option>
+                <option value="bitcoin-converter"> Bitcoin</option>
+                <option value="dolar-converter">US$ Dolar americano</option>
+                <option value="euro-converter">€ Euro </option>
+
+            </select>
+        </Label>
+
+        <Label>
+            Converter <b>para</b>
+            <select class="currency-coverted-moeda">
+            
+                <option value="dolar-converted">US$ Dolar americano</option>
+                <option value="libra-converted"> £ Libra</option>
+                <option value="bitcoin-converted"> Bitcoin</option>
+                <option value="euro-converted">€ Euro </option>
+
+            </select>
+        </Label>
+
+        <label>
+            Valor
+            <input class="input-currency" placeholder="10,00">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section class="currency-converted-moeda">
+            <div class="currency-box">
+                <img class="moeda-br" src="assents/brasil 2.png" alt="logo-moeda-brasileira">
+                <p class="currency" id="currency-name-real">Real</p>
+                <p class="currency-value-real">R$ 0,00</p>
+            </div>
+            <img class="arrow" src="assents/kisspng-arrow-down-android-down-arrow-5ac931a1595760.704740741523134881366.png"
+            alt="seta">
+            <div  class="currency-box">
+                <img class="moeda-eua" src="assents/estados-unidos (1) 1.png" alt="logo-moeda-eua">
+                <p class="currency" id="currency-name-dolar">Dólar americano</p>
+                <p class="currency-value-dolar">US$ 0,00</p>
+            </div>
+
+            
+            </div>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+
+
+.celular {
+    width: 450px;
+}
+
+.caixa {
+    border: 1px solid #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px;
+}
+
+input {
+    height: 36px;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+button {
+
+    background-color: #0095f0;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Facebook {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.senha {
+    color: #385185;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.imagens {
+    position: relative;
+
+}
+
+.insta1 {
+    height: 520px;
+    position: absolute;
+    left: 153px;
+    top: 26px;
+    transition: ease-in-out 2s;
+}
