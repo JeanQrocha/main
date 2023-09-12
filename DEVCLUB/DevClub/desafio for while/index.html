@@ -8,13 +8,12 @@
 </head>
 
 <body>
-    <input type="Digite aqui">
+    <input type="text">
     <p></p>
     <button onclick="search()"> Procurar </button>
 
 </body>
 <script>
-
     const paragraph = document.querySelector("p")
     const input = document.querySelector("input")
 
@@ -25,49 +24,28 @@
         { name: "Thayna", number: "(47) 99652-5348" },
 
     ]
-    let i = 0
+
 
     function search() {
-
+        let i = 0
         do {
-            if (input.value === contacts[i].name) {
+            if (input.value.toLowerCase() === contacts[i].name.toLowerCase()) {
                 paragraph.innerHTML = `Contato encontrado Nome: ${contacts[i].name}  Tel: ${contacts[i].number}`
                 break
+
 
             }
             else {
                 paragraph.innerHTML = "Contato não encontrado"
+
             }
+
+
 
             i++;
 
-        } while (i < contacts.length);
+        } while (i < contacts.length)
 
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
+    }</script>
 
 </html>
