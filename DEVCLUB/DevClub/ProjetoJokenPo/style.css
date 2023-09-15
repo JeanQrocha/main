@@ -73,7 +73,6 @@ section {
 p {
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Alkatra', cursive;
 }
 section {
     background-color: rgb(198, 210, 210);
@@ -90,7 +89,6 @@ section {
 .result {
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Alkatra', cursive;
 
 
 }
@@ -98,7 +96,6 @@ section {
 span {
     font-weight: bold;
     font-size: 50px;
-    font-family: 'Alkatra', cursive;
 
 }
 
@@ -116,11 +113,9 @@ span {
     span {
         font-weight: bold;
         font-size: 20px;
-        font-family: 'Alkatra', cursive;
     
     }
     h1 {
-        font-family: 'Permanent Marker', cursive;
         font-weight: 700;
         font-size: 40px;
         padding: 0 0 35px 10px;
