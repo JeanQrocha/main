@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/DEVCLUB/DevClub/Projeto-forEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center ;
+    align-content: center;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(158, 74, 41);
+    color: #ffff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.5;
+}
+
+
+img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;    
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 25px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: rgb(228, 188, 9);
+}
+
+@media screen and (max-width: 550px) {
+    body{
+        background: url("/DEVCLUB/DevClub/Projeto-forEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    
+h1{
+    font-size: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    color: rgb(228, 188, 9);
+}
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(158, 74, 41);
+    color: #ffff;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+li {
+    margin: 10px;
+    width: 170px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+    
+}
