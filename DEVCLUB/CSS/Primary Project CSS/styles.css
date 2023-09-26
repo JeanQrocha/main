@@ -1,0 +1,69 @@
+* {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 47px 0 50px 90px;
+}
+
+.link-header {
+    color: #17233D;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    margin-right: 32px;
+}
+
+section {
+    display: inline-block;
+}
+
+.signup {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.imglogo {
+    width: 533.834px;
+    height: 466.9px;
+    margin-left: 121px;
+    margin-right: 50px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    width: 582px;
+}
+
+p {
+    margin-top: 65px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    width: 493px;
+}
+
+.button-main {
+    margin-top: 42px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 15px;
+}
