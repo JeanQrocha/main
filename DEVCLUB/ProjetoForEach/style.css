@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url("/DEVCLUB/DevClub/Projeto-forEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
+    background: url("/DEVCLUB/ProjetoForEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -78,7 +78,7 @@ h1{
 
 @media screen and (max-width: 550px) {
     body{
-        background: url("/DEVCLUB/DevClub/Projeto-forEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
+        background: url("/DEVCLUB/ProjetoForEach/assets/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco.jpg");
         background-size: cover;
         height: 100vh;
         width: 100vw;
