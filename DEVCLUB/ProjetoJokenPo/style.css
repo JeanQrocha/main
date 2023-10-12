@@ -5,12 +5,18 @@
 }
 
 body {
-    background: url("/DEVCLUB/ProjetoJokenPo/jokenpo.jpg");
+    height: 100vh;
+    background: url("./assets/jokenpo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+
+
+
+
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -66,9 +72,7 @@ section {
     padding: 40px;
 }
 
-.game-rules { 
-    color: aliceblue;
-}
+
 
 p {
     font-weight: bold;
